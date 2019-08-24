@@ -1,0 +1,30 @@
+.ne-main{
+    background: #fcfafa;
+}
+.info-title{
+    text-align: center;
+}
+.info-sub-title{
+    text-align: center;
+    padding: 15px;
+}
+.contact-info-wrap{
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 50px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.contact-info-wrap h3{
+    color: #5996e6;
+}
+.contact-info-wrap-b{
+    padding: 15px 0;
+}
+.contact-info-wrap-b-ac{
+    width: 100%;
+}
+.full-widh{
+    width: 100%;
+}
