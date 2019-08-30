@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/index.css';
+import '../../css/index.css';
 
 class TimeLine extends Component {
   render() {
@@ -14,7 +14,7 @@ class TimeLine extends Component {
     return (
       <div>
         <div>timeline</div>
-        {renderList()}
+        {/* {renderList()} */}
       </div>
     );
   }

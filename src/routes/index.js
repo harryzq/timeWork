@@ -4,7 +4,6 @@ import {NavLink} from 'react-router-dom';
 const NavBar = () =>(
     <div>
         <div>
-            <NavLink exact to='/'>Jsdemoa</NavLink> |&nbsp;
             <NavLink to='/timeLine'>timeLine</NavLink> |&nbsp;
             <NavLink to='/newEmployee'>newEmployee</NavLink>
         </div>

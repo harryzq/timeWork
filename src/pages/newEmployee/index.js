@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import '../css/index.css';
+import '../../css/index.css';
 import { Input, Col, Row, Select, Radio,DatePicker, AutoComplete,Button } from 'antd';
 import moment from 'moment';
 // import exportPDF from '../tool/exportPDF'
-import internWord from '../tool/internWord'
+import internWord from '../../tool/internWord'
 const { Option } = Select;
 const dateFormat = 'YYYY/MM/DD';
 const degree = ["博士以上","博士","研究生","本科","大专","高中","初中",'小学',"小学以下"]
