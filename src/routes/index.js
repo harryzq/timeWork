@@ -1,12 +1,16 @@
-import React from 'react';
-import {NavLink} from 'react-router-dom';
-//nav.js
-const NavBar = () =>(
-    <div>
-        <div>
-            <NavLink to='/timeLine'>timeLine</NavLink> |&nbsp;
-            <NavLink to='/newEmployee'>newEmployee</NavLink>
-        </div>
-    </div>
-    )
-export default NavBar;
+import timeLine from '../pages/timeLine'
+import newEmployee from '../pages/newEmployee'
+
+export const createRoutes = (store) => {
+  return ({
+    path: '/',
+    component: Layout(store),
+    indexRoute: DomList(store),
+    childRoutes: [
+        newEmployee(store),
+        timeLine(store),
+    ]
+  })
+}
+
+export default createRoutes

@@ -4,7 +4,7 @@ import { combineReducers } from 'redux';
 export const makeRootReducer = (asyncReducers) => (
   combineReducers({
     // Add sync reducers here
-    router,
+    // router,
     ...asyncReducers,
   })
 );
