@@ -50,16 +50,9 @@ class NewEmployee extends Component {
     this.changeValue('email',value)
   };
   changeDate = (date, dateString) => {
-    // console.log(date);
-    // console.log(dateString);
     this.changeValue('birthDay',dateString)
   }
   changeValue = (from,event) => {
-    // console.log('===============')
-    // console.log(from);
-    // console.log(event);
-    // // console.log(event.target.value);
-    // console.log('===============')
     let name = from
     let data 
     switch (from) {

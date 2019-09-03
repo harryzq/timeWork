@@ -11,7 +11,7 @@ import createStore from './store/creatStore'
 // 环境
 let ENV = process.env.NODE_ENV
 if (ENV==='development') {
-  console.log('')
+  // console.log('')
 }
 
 // ========================================================
@@ -19,7 +19,7 @@ if (ENV==='development') {
 // ========================================================
 const initialState = {};
 const store = createStore(initialState);
-const routes = require('./routes/index.js').default(store);
+// const routes = require('./routes/index.js').default(store);
 
 // ========================================================
 // Render Setup
@@ -31,7 +31,7 @@ ReactDOM.render(
           <Nav/>
           <Route exact path="/timeLine" component={timeLine} />
           <Route exact path="/newEmployee" component={newEmployee} />
-          <Redirect from="/*" to="/newEmployee"></Redirect>
+          {/* <Redirect from="/" to="/newEmployee"></Redirect> */}
     </BrowserRouter>
   ,
   MOUNT_NODE
